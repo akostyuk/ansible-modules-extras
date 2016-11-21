@@ -31,6 +31,11 @@ options:
       - HTTP connection timeout in seconds
     required: false
     default: 10
+  http_agent:
+    description:
+      - Set http user agent
+    required: false
+    default: "ansible-ipinfoio-module/0.0.1"
 notes:
   - "Check http://ipinfo.io/ for more information"
 '''
